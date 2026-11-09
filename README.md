@@ -21,7 +21,7 @@
 
 ---
 
-### 🖤 TECNOLOGIAS
+### TECNOLOGIAS
 
 ---
 
@@ -53,30 +53,30 @@
 
 ---
 
-### 🖤 MEU STACK
+### MEU STACK
 
 ---
 
 <table>
   <tr>
     <td align="center" width="25%" valign="top">
-      <h4>🖤 Backend / Python</h4>
+      <h4>Backend / Python</h4>
       <code>Python</code><br/>
       <code>APIs</code>
     </td>
     <td align="center" width="25%" valign="top">
-      <h4>🖤 Front-end</h4>
+      <h4>Front-end</h4>
       <code>HTML5</code><br/>
       <code>CSS3</code><br/>
       <code>JavaScript</code>
     </td>
     <td align="center" width="25%" valign="top">
-      <h4>🖤 Dados</h4>
+      <h4>Dados</h4>
       <code>SQL</code><br/>
       <code>SQLite</code>
     </td>
     <td align="center" width="25%" valign="top">
-      <h4>🖤 Ferramentas</h4>
+      <h4>Ferramentas</h4>
       <code>Git</code> · <code>GitHub</code><br/>
       <code>Docker</code> · <code>AWS</code><br/>
       <code>VS Code</code>
