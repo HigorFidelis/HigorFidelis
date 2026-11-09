@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- cache-bust:v=2 green=#39d353/#26a641/#0e4429 -->
 <svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500" role="img" aria-label="Higor Fidelis - banner do perfil GitHub">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0b0b0f"/>
-      <stop offset="55%" stop-color="#121218"/>
-      <stop offset="100%" stop-color="#101a14"/>
+      <stop offset="55%" stop-color="#121816"/>
+      <stop offset="100%" stop-color="#0f1a14"/>
     </linearGradient>
     <linearGradient id="wave" x1="0%" y1="20%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0e4429" stop-opacity="0"/>
@@ -13,7 +14,7 @@
       <stop offset="100%" stop-color="#39d353" stop-opacity="0.95"/>
     </linearGradient>
     <linearGradient id="glow" x1="70%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#3fb950" stop-opacity="0.35"/>
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#0e4429" stop-opacity="0"/>
     </linearGradient>
     <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
