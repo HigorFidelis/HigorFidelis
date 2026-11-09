@@ -163,15 +163,15 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/dd0dc227c9501aa09467f962c0b3ff32cd1ee2cd/github-contribution-grid-snake-dark.svg"
+    srcset="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake-dark.svg?v=3"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/dd0dc227c9501aa09467f962c0b3ff32cd1ee2cd/github-contribution-grid-snake.svg"
+    srcset="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake.svg?v=3"
   />
   <img
     alt="github contribution grid snake animation"
-    src="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/dd0dc227c9501aa09467f962c0b3ff32cd1ee2cd/github-contribution-grid-snake.svg"
+    src="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake.svg?v=3"
   />
 </picture>
 
