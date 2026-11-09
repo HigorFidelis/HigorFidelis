@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.svg" alt="Hígor Fidelis — Estágio TI • Eng. Software • Python • APIs" width="100%"/>
+  <img src="./banner.svg?v=2" alt="Hígor Fidelis — Estágio TI • Eng. Software • Python • APIs" width="100%"/>
 </div>
 
 <br/>
@@ -159,19 +159,19 @@
 
 <br/>
 
-<!-- Atualiza após o workflow Platane/snk rodar (branch `output`). -->
+<!-- Atualiza após o workflow Platane/snk rodar (branch `output`). Cache-bust ?v=2. -->
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake-dark.svg"
+    srcset="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake-dark.svg?v=2"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake.svg"
+    srcset="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake.svg?v=2"
   />
   <img
     alt="github contribution grid snake animation"
-    src="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake.svg"
+    src="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake.svg?v=2"
   />
 </picture>
 
