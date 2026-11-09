@@ -88,20 +88,6 @@
 
 ---
 
-### Ferramentas que fazem parte do meu dia
-
----
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=python,git,github,docker,aws,vscode,html,css,js" alt="Python, Git, GitHub, Docker, AWS, VS Code, HTML, CSS, JavaScript"/>
-&nbsp;
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL"/>
-
-<br/><br/>
-
----
-
 ### projetos
 
 ---
