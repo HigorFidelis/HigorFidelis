@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500" role="img" aria-label="Higor Fidelis - banner do perfil GitHub">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0b0f"/>
+      <stop offset="55%" stop-color="#121218"/>
+      <stop offset="100%" stop-color="#1a1018"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="20%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7a1f5c" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#9b2d6e" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#d63384" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ff4fa3" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="70%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6bb5" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7b2cbf" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+  </defs>
+
+  <rect width="1500" height="500" fill="url(#bg)"/>
+
+  <ellipse cx="1280" cy="250" rx="320" ry="260" fill="url(#glow)" filter="url(#soft)"/>
+
+  <path
+    d="M780 500 C860 420, 920 360, 1000 320 C1100 270, 1180 250, 1280 210 C1360 180, 1420 140, 1500 90 L1500 500 Z"
+    fill="url(#wave)"
+    opacity="0.9"
+  />
+  <path
+    d="M860 500 C940 450, 1000 400, 1090 360 C1180 320, 1260 300, 1360 250 C1420 220, 1460 180, 1500 150 L1500 500 Z"
+    fill="#ff4fa3"
+    opacity="0.18"
+  />
+
+  <rect x="0" y="0" width="1500" height="2" fill="#ffffff" opacity="0.04"/>
+
+  <text
+    x="750"
+    y="210"
+    text-anchor="middle"
+    font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+    font-size="72"
+    font-weight="700"
+    fill="#ffffff"
+    letter-spacing="0.5"
+  >H&#237;gor Fidelis</text>
+
+  <text
+    x="750"
+    y="270"
+    text-anchor="middle"
+    font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+    font-size="28"
+    font-weight="400"
+    fill="#e8e8ef"
+  >Est&#225;gio TI &#8226; Eng. Software &#8226; Python &#8226; APIs</text>
+
+  <text
+    x="750"
+    y="340"
+    text-anchor="middle"
+    font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+    font-size="24"
+    font-weight="600"
+    fill="#ff4fa3"
+    letter-spacing="1.5"
+  >Python | SQL | Git | Docker</text>
+</svg>
