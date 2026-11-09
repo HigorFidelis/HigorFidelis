@@ -114,34 +114,34 @@
   <tr>
     <td align="center" width="50%" valign="top">
       <h3>Raízes do Bem</h3>
-      <img src="https://img.shields.io/badge/HTML%20%2F%20CSS%20%2F%20JS-ff2d95?style=flat-square" alt="HTML / CSS / JS"/>
+      <img src="https://img.shields.io/badge/HTML%20%2F%20CSS%20%2F%20JS-39d353?style=flat-square" alt="HTML / CSS / JS"/>
       <br/><br/>
       Site multi-página de ONG (educação, meio ambiente e saúde) com CSS modular, cadastro de voluntários/doações e listagem na Comunidade.
       <br/><br/>
       <a href="https://github.com/HigorFidelis/Raizes-do-bem">
-        <img src="https://img.shields.io/badge/Ver%20no%20GitHub-ff2d95?style=for-the-badge&logo=github&logoColor=white" alt="Ver no GitHub"/>
+        <img src="https://img.shields.io/badge/Ver%20no%20GitHub-39d353?style=for-the-badge&logo=github&logoColor=white" alt="Ver no GitHub"/>
       </a>
     </td>
     <td align="center" width="50%" valign="top">
       <h3>Asas Livre</h3>
-      <img src="https://img.shields.io/badge/HTML%20%2F%20CSS%20%2F%20JS-ff2d95?style=flat-square" alt="HTML / CSS / JS"/>
+      <img src="https://img.shields.io/badge/HTML%20%2F%20CSS%20%2F%20JS-39d353?style=flat-square" alt="HTML / CSS / JS"/>
       <br/><br/>
       Site institucional acadêmico da ONG Asas Livres (rescate de animais silvestres) — páginas de início, projetos, cadastro e membros.
       <br/><br/>
       <a href="https://github.com/HigorFidelis/Asas-Livre">
-        <img src="https://img.shields.io/badge/Ver%20no%20GitHub-ff2d95?style=for-the-badge&logo=github&logoColor=white" alt="Ver no GitHub"/>
+        <img src="https://img.shields.io/badge/Ver%20no%20GitHub-39d353?style=for-the-badge&logo=github&logoColor=white" alt="Ver no GitHub"/>
       </a>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%" valign="top">
       <h3>Clínica de Estética</h3>
-      <img src="https://img.shields.io/badge/SQL-ff2d95?style=flat-square" alt="SQL"/>
+      <img src="https://img.shields.io/badge/SQL-39d353?style=flat-square" alt="SQL"/>
       <br/><br/>
       Trabalho acadêmico de banco de dados para clínica de estética — modelagem SQL em evolução.
       <br/><br/>
       <a href="https://github.com/HigorFidelis/Clinica-de-Estetica">
-        <img src="https://img.shields.io/badge/Ver%20no%20GitHub-ff2d95?style=for-the-badge&logo=github&logoColor=white" alt="Ver no GitHub"/>
+        <img src="https://img.shields.io/badge/Ver%20no%20GitHub-39d353?style=for-the-badge&logo=github&logoColor=white" alt="Ver no GitHub"/>
       </a>
     </td>
     <td align="center" width="50%" valign="top">
@@ -186,7 +186,7 @@
 <br/>
 
 <a href="mailto:higor.delima@outlook.com">
-  <img src="https://img.shields.io/badge/EMAIL-ff2d95?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="EMAIL"/>
+  <img src="https://img.shields.io/badge/EMAIL-39d353?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="EMAIL"/>
 </a>
 &nbsp;
 <a href="https://github.com/HigorFidelis">
