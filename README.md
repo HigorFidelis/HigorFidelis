@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.svg?v=2" alt="Hígor Fidelis — Estágio TI • Eng. Software • Python • APIs" width="100%"/>
+  <img src="./banner.v2.svg" alt="Hígor Fidelis — Estágio TI • Eng. Software • Python • APIs" width="100%"/>
 </div>
 
 <br/>
@@ -163,15 +163,15 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake-dark.svg?v=2"
+    srcset="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake-dark.svg?v=3"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake.svg?v=2"
+    srcset="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake.svg?v=3"
   />
   <img
     alt="github contribution grid snake animation"
-    src="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake.svg?v=2"
+    src="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake.svg?v=3"
   />
 </picture>
 
