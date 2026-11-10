@@ -145,19 +145,19 @@
 
 <br/>
 
-<!-- Atualiza após o workflow Platane/snk rodar (branch `output`). Cache-bust ?v=2. -->
+<!-- Atualiza após o workflow Platane/snk rodar (branch `output`). Cache-bust ?v=4. -->
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake-dark.svg?v=3"
+    srcset="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake-dark.svg?v=4"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake.svg?v=3"
+    srcset="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake.svg?v=4"
   />
   <img
     alt="github contribution grid snake animation"
-    src="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake.svg?v=3"
+    src="https://raw.githubusercontent.com/HigorFidelis/HigorFidelis/output/github-contribution-grid-snake.svg?v=4"
   />
 </picture>
 
