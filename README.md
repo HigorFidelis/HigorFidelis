@@ -100,7 +100,7 @@
   <tr>
     <td align="center" width="50%" valign="top">
       <h3>Raízes do Bem</h3>
-      <img src="https://img.shields.io/badge/HTML%20%2F%20CSS%20%2F%20JS-39d353?style=flat-square" alt="HTML / CSS / JS"/>
+      <code>HTML / CSS / JS</code>
       <br/><br/>
       Site multi-página de ONG (educação, meio ambiente e saúde) com CSS modular, cadastro de voluntários/doações e listagem na Comunidade.
       <br/><br/>
@@ -110,7 +110,7 @@
     </td>
     <td align="center" width="50%" valign="top">
       <h3>Asas Livre</h3>
-      <img src="https://img.shields.io/badge/HTML%20%2F%20CSS%20%2F%20JS-39d353?style=flat-square" alt="HTML / CSS / JS"/>
+      <code>HTML / CSS / JS</code>
       <br/><br/>
       Site institucional acadêmico da ONG Asas Livres (rescate de animais silvestres) — páginas de início, projetos, cadastro e membros.
       <br/><br/>
@@ -122,7 +122,7 @@
   <tr>
     <td align="center" width="50%" valign="top">
       <h3>Clínica de Estética</h3>
-      <img src="https://img.shields.io/badge/SQL-39d353?style=flat-square" alt="SQL"/>
+      <code>SQL</code>
       <br/><br/>
       Trabalho acadêmico de banco de dados para clínica de estética — modelagem SQL em evolução.
       <br/><br/>
