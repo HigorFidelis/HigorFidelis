@@ -18,15 +18,39 @@ jobs:
 
     steps:
       - name: generate github-contribution-grid-snake
+        id: generate
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#26a641&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#39d353&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
             dist/github-contribution-grid-snake.gif?color_snake=#39d353&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353&color_background=#0d1117
 
+      # Platane/snk force-pushes a frozen/empty snake when the contribution
+      # calendar is temporarily 0. Refuse to clobber last good art on `output`.
+      - name: Guard against empty contribution art
+        id: guard
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          TOTAL="$(gh api graphql -f query='query($l:String!){user(login:$l){contributionsCollection{contributionCalendar{totalContributions}}}}' -f l="${{ github.repository_owner }}" --jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')"
+          GIF_BYTES="$(wc -c < dist/github-contribution-grid-snake.gif | tr -d ' ')"
+          SVG_U="$(grep -c '@keyframes u' dist/github-contribution-grid-snake.svg || true)"
+          echo "total_contributions=${TOTAL}"
+          echo "gif_bytes=${GIF_BYTES}"
+          echo "svg_eat_keyframes=${SVG_U}"
+          if [ "${TOTAL}" -eq 0 ] || [ "${GIF_BYTES}" -lt 10000 ] || [ "${SVG_U}" -lt 1 ]; then
+            echo "skip_push=true" >> "$GITHUB_OUTPUT"
+            echo "::warning::Skipping output push — empty/degenerate snake (contributions=${TOTAL}, gif=${GIF_BYTES}B, u_keyframes=${SVG_U}). Preserves last good art on output."
+          else
+            echo "skip_push=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: push snake art to the output branch
+        if: steps.guard.outputs.skip_push != 'true'
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
